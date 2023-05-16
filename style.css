@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav .logo {
+    float: left;
+}
+
+header nav ul {
+    float: right;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 0px 16px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    transition: .5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header nav .logo a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+header {
+    background-image: url(image/bg-masthead\ \(1\).jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.clear {
+    clear: both;
+}
+
+header nav ul li :hover {
+    color: red;
+    background-color: aqua;
+}
+
+.text{
+    color: white;
+text-align: center;
+}
+.text h1{
+    font-size: 62px;
+    
+
+}
+.text .line{
+    width: 60px;
+    background-color: #f4623a;
+    height: 2px;
+        margin: 20px auto;
+    border: none;
+}
+.text .text-p{
+    padding: 0 200px;
+    margin-bottom: 50px;
+}
+.text a{
+    text-transform: uppercase;
+    background-color: #f4623a;
+    padding: 20px 36px;
+    border-radius: 25px 0 0 25px;
+}
